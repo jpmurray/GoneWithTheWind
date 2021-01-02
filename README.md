@@ -11,11 +11,11 @@ This was made in an effort to try and learn Tailwind. Not that I want to learn i
 Attributes:
 
 - `model` asks for the singular model name to generates things like routes (ex: `route('users.index'))
-- `data` asks for the data to display in table, goes well with an eloquent collection
+- `data` asks for the data to display in table, goes well with an eloquent collection or a paginated collection.
 - `show` asks what column to show from the data (ex: `['name', 'created_at']`)
 - `actions` defaults to null, but if provided, will add an `action` column with specified ones. For now, supports `['edit', 'delete']`
 
-```
+```blade
 <x-with-wind::table
     model="user"
     :data="$users"
