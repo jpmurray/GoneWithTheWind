@@ -2,6 +2,10 @@
 
 Dates are in `dd-mm-yyyy` format.
 
+## 1.3.0 (02-01-2021)
+
+- Changed namespace of each category of components.
+
 ## 1.2.0 (02-01-2021)
 
 - Select element now uses associative array.
