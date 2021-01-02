@@ -2,6 +2,10 @@
 
 Dates are in `dd-mm-yyyy` format.
 
+## 1.3.2 (02-01-2021)
+
+- Maintenance in `composer.json` and `.gitignore` files
+
 ## 1.3.1 (02-01-2021)
 
 - Added a license file.
