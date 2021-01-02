@@ -1,14 +1,23 @@
 {
   "name": "jpmurray/gonewiththewind",
   "description": "A package containing Tailwind CSS components that plays well with the default Laravel Tailwind UI.",
+  "keywords": [
+    "laravel",
+    "tailwind",
+    "tailwindcss",
+    "components"
+  ],
+  "license": "MIT",
   "authors": [
     {
       "name": "Jean-Philippe Murray",
       "email": "jp@atomescroch.us"
     }
   ],
-  "minimum-stability": "dev",
-  "prefer-stable": true,
+  "support": {
+    "issues": "https://github.com/jpmurray/GoneWithTheWind/issues",
+    "source": "https://github.com/jpmurray/GoneWithTheWind"
+  },
   "require": {
     "laravel/framework": "^8.12"
   },
@@ -23,5 +32,10 @@
         "Jpmurray\\GoneWithTheWind\\Provider\\GonewithTheWindServiceProvider"
       ]
     }
-  }
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
 }
