@@ -34,11 +34,15 @@ This was made in an effort to try and learn Tailwind. Not that I want to learn i
 <x-with-wind::label for="name">Name</<x-with-wind::label>
 ```
 
+<hr>
+
 #### Input
 
 ```blade
 <x-with-wind::input id="name" type="text" name="name" :value="old('name')" required />
 ```
+
+<hr>
 
 #### Select
 
@@ -50,6 +54,8 @@ This was made in an effort to try and learn Tailwind. Not that I want to learn i
 
 - `choices` asks for an array of what to use in the select element
 - `chosen` asks for what should be selected in the choices, if necessary.
+
+<hr>
 
 #### Submit button
 
