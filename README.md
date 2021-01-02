@@ -11,7 +11,7 @@ This was made in an effort to try and learn Tailwind. Not that I want to learn i
 #### Table
 
 ```blade
-<x-with-wind::table
+<x-with-wind-cards::table
     model="user"
     :data="$users"
     :show="['name']"
@@ -31,7 +31,7 @@ This was made in an effort to try and learn Tailwind. Not that I want to learn i
 #### Label
 
 ```blade
-<x-with-wind::label for="name">Name</<x-with-wind::label>
+<x-with-wind-forms::label for="name">Name</<x-with-wind-forms::label>
 ```
 
 <hr>
@@ -39,7 +39,7 @@ This was made in an effort to try and learn Tailwind. Not that I want to learn i
 #### Input
 
 ```blade
-<x-with-wind::input id="name" type="text" name="name" :value="old('name')" required />
+<x-with-wind-forms::input id="name" type="text" name="name" :value="old('name')" required />
 ```
 
 <hr>
@@ -47,7 +47,7 @@ This was made in an effort to try and learn Tailwind. Not that I want to learn i
 #### Select
 
 ```blade
-<x-with-wind::select id="type" name="type" autocomplete="type" :choices="['Label' => 'value']" chosen="value" />
+<x-with-wind-forms::select id="type" name="type" autocomplete="type" :choices="['Label' => 'value']" chosen="value" />
 ```
 
 **Attributes**:
@@ -60,5 +60,5 @@ This was made in an effort to try and learn Tailwind. Not that I want to learn i
 #### Submit button
 
 ```blade
-<x-with-wind::submit>Save</<x-with-wind::submit>
+<x-with-wind-forms::submit>Save</<x-with-wind-forms::submit>
 ```
