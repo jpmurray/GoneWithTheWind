@@ -2,6 +2,10 @@
 
 Dates are in `dd-mm-yyyy` format.
 
+## 1.3.1 (02-01-2021)
+
+- Added a license file.
+
 ## 1.3.0 (02-01-2021)
 
 - Changed namespace of each category of components.
