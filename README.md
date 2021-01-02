@@ -47,12 +47,12 @@ This was made in an effort to try and learn Tailwind. Not that I want to learn i
 #### Select
 
 ```blade
-<x-with-wind::select id="type" name="type" autocomplete="type" :choices="['first', 'second','third']" chosen="first" />
+<x-with-wind::select id="type" name="type" autocomplete="type" :choices="['Label' => 'value']" chosen="value" />
 ```
 
 **Attributes**:
 
-- `choices` asks for an array of what to use in the select element
+- `choices` asks for an associative array of `label => value`to populate the select element
 - `chosen` asks for what should be selected in the choices, if necessary.
 
 <hr>
