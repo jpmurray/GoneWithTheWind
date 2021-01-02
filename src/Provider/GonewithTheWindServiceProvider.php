@@ -29,5 +29,6 @@ class GonewithTheWindServiceProvider extends ServiceProvider
         $this->loadViewsFrom(self::PATH_VIEWS, 'gone-with-the-wind');
 
         Blade::componentNamespace('Jpmurray\\GoneWithTheWind\\View\\Components\\Cards', 'with-wind');
+        Blade::componentNamespace('Jpmurray\\GoneWithTheWind\\View\\Components\\Forms', 'with-wind');
     }
 }
